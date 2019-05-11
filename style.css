@@ -13,11 +13,14 @@ header {
 }
 
 #header-wrap {
-    max-width: 1000px;
-    margin: auto;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
 }
 
 header ul {
@@ -45,6 +48,63 @@ header ul li a:hover {
 #logo img {
     max-width: 100px;
 }
+
+/*
+    Content styles
+*/
+
+#content-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content {
+    width: 70%;
+    padding: 15px 15px 15px 0;
+}
+
+#sidebar {
+    width: 30%;
+    padding: 15px 0 15px 15px;
+}
+
+#content, #sidebar {
+    box-sizing: border-box;
+}
+
+.border {
+    box-shadow: 0 0 3px 2px #00000087;
+    padding: 15px;
+    min-height: 600px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery .article {
+    width: 50%;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery .article-wrap {
+    margin: 15px;
+    box-shadow: 0 0 6px 3px #00000075;
+    padding: 10px;
+    text-align: center;
+}
+
+#gallery .article-wrap h4 {
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+
 
 @media(max-width: 800px) {
     header ul {
