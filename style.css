@@ -104,6 +104,21 @@ header ul li a:hover {
     font-size: 22px;
 }
 
+.list {
+    box-shadow: 0 0 3px 2px #00000061;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #000;
+}
+
+.list h3 {
+    margin: 0 0 5px 0;
+}
+
 
 
 @media(max-width: 800px) {
