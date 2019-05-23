@@ -119,6 +119,18 @@ header ul li a:hover {
     margin: 0 0 5px 0;
 }
 
+footer {
+    background: #000;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+}
+
 @media(max-width: 1060px) {
     #content-wrap {
         margin: 0 15px;
